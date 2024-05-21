@@ -1,0 +1,165 @@
+:root{
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+}
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #CCCCCC;
+    font-family: 'Raleway';
+    font-size: 150%;
+    /*margin: 30px;
+    padding: 20px*/;
+    line-height: 1;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*hola y bienvenidQs*/
+.menu__title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+/*foto perfil*/
+.title__profile{
+    display: flex;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/*Hola, mi nombre es...*/
+.title__bio{
+    display: contents;
+    overflow: auto;
+    margin-bottom: 20px;
+    gap: 40px;
+    font-size: 180%;
+    font-weight: bolder;
+    text-align: start;
+    max-width: 100%;
+    height: auto;
+}
+
+/*Soy egresada de...*/
+.title__subsection{
+    display: flex;
+    margin-bottom: 100px;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: start;
+    margin: 40px 0;
+    top: 10%;
+    right: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+.about{
+    display: flex;
+    background: white;
+    margin-bottom: auto;
+    justify-content: space-between;
+    margin-block-start: 10%;
+    writing-mode: horizontal-tb;
+}
+
+.about__title{
+    display: flex;
+    background:rgb(5, 238, 226);
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.about__paragraph{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    
+}
+
+.aptitudes_generales{
+    width: 940px;
+    margin:  0 auto;
+    padding: 50px;
+}
+
+.aptitudes_generales li{
+    display: inline-block;
+    text-align: start;
+    width: 29%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.aptitudes_generales h3{
+    text-align: center;
+}
+
+.caja-experiencia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.imagen-encriptador{
+    display: flex;
+    float: right;
+    max-width: 100%;
+    height: auto;
+}
+
+.caja-experiencia2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.grafico-numero-secreto{
+    display: flex;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+footer{
+    max-width: 100%;
+    height: auto;
+    background-color: black;
+    margin: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 2px;
+}
+
+footer p{
+    color: white;
+}
+
+footer li{
+    color: white;
+}
+
+.contacto{
+    display: inline;
+}
